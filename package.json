@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "This is a website made to help Jefferson Academy students organize their classes",
   "main": "index.html",
- "scripts": {
- "dev": "vite",
- "start": "vite",
- "build": "vite build",
- "preview": "vite preview",
- "test": "echo \"Error: no test specified\" && exit 1"
-},
-
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@huggingface/inference": "^4.13.5",
     "bootstrap": "^4.5.2",
