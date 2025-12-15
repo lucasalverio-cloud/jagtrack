@@ -48,16 +48,7 @@
   </div>
 </nav>
 
-<header class="jumbotron jumbotron-fluid">
-  <div class="container">
-      <div class="row">
-          <div class="col text-center">
-              <h1>JagTrack</h1>
-              <h2>Your Academic Success Hub</h2>
-          </div>
-      </div>
-  </div>
-</header>
+
 
 <body>
 
@@ -113,6 +104,9 @@
        <h3>Stay On Track</h3>
        <p>Never miss an assignment or test date again.</p>
    </div>
+<p class="d-block d-md-none text-center">
+  <a href=https://calendar.google.com/calendar/embed?src=dgie7pofrl27pcfcn99m2tmoaggk31rl%40import.calendar.google.com&ctz=America%2FDenver target="_blank" class="btn btn-primary">Open Calendar in New Tab (Better for Mobile)</a>
+</p>
 
 
   <footer>
@@ -140,6 +134,22 @@
        </div>
    </div>
    <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
+<div class="container">
+  <div class="row row-content">
+      <div class="col">
+          <h2 class="text-center">Calendar & Deadlines</h2>
+          <h3 class="text-center">Stay On Track</h3>
+          <p class="text-center">Your Canvas assignments automatically sync to this calendar. Never miss a deadline!</p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col">
+          <div class="calendar-container">
+              <iframe src="https://calendar.google.com/calendar/embed?src=dgie7pofrl27pcfcn99m2tmoaggk31rl%40import.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          </div>
+      </div>
+  </div>
+</div>
 
 </footer>
 
@@ -301,28 +311,10 @@
    </div>
 </div>
 
-
 <li class="nav-item active">
    <a class="nav-link" href="index.html">Home</a>
 </li>
 
-
-On myclassesnextquarter.html:
-<li class="nav-item active">
-   <a class="nav-link" href="myclassesnextquarter.html">Next Quarter</a>
-</li>
-
-
-On aboutme.html:
-<li class="nav-item active">
-   <a class="nav-link" href="aboutme.html">About Me</a>
-</li>
-
-
-On ai-chat.html (if you have this bonus feature):
-<li class="nav-item active">
-   <a class="nav-link" href="ai-chat.html">AI Chat</a>
-</li>
 
 </body>
 
@@ -330,3 +322,24 @@ On ai-chat.html (if you have this bonus feature):
 
 </html>
 <a href="ai-chat.html">AI Assistant</a>
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+Add your theme toggle script AFTER these (but still before closing </body>):
+
+
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<!-- Custom JavaScript for theme toggle -->
+<script src="js/theme-toggle.js"></script>
+
+
+</body>
+</html>
